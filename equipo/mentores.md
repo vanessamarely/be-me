@@ -12,19 +12,21 @@ coverY: 0
 
 ## Miguel Sierra
 
-👋 CEO — 💌 esme@company.com — 🇺🇸 San Francisco (GMT-7)
+👋 Senior Frontend Engineer — 💌  — 🇨🇴 Colombia (GMT-5)
 
-![](https://images.unsplash.com/photo-1571442463800-1337d7af9d2f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8\&ixlib=rb-1.2.1\&auto=format\&fit=crop\&w=2973\&q=80)
+
+
+<figure><img src="../.gitbook/assets/T06M9E5E3-U036R1BF3T8-e8a8bf36a27f-512.jpeg" alt=""><figcaption></figcaption></figure>
 
 ### Bio
 
 {% hint style="info" %}
-**GitBook tip:** Encourage employees to write a succinct bio that can help new hires learn about them and how they like to work.
+**In progress**
 {% endhint %}
 
 ## Vanessa Aristizabal
 
-👋 Senior Web consultant — 💌 vanessamarely — 🇳🇱 Colombia (GMT-5)
+👋 Senior Web consultant — 💌 vanessamarely — 🇨🇴 Colombia (GMT-5)
 
 <figure><img src="../.gitbook/assets/IMG_9607.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
