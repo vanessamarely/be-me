@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👋 Bienvenid@s a Be-Me!](README.md)
+* [👋 Hola a Be-Me!](README.md)
 
 ## Equipo
 

@@ -21,12 +21,12 @@ coverY: 0
 ### Bio
 
 {% hint style="info" %}
-**In progress**
+**Fullstack developer.**
 {% endhint %}
 
 ## Vanessa Aristizabal
 
-👋 Senior Web consultant — 💌 vanessamarely — 🇨🇴 Colombia (GMT-5)
+👋 Frontend Developer — 💌 vanessamarely — 🇨🇴 Colombia (GMT-5)
 
 <figure><img src="../.gitbook/assets/IMG_9607.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
