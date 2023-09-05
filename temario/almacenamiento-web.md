@@ -1,3 +1,0 @@
-# 💾 Almacenamiento Web
-
-En progreso ...
