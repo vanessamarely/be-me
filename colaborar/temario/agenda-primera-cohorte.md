@@ -11,3 +11,5 @@ Módulos JavaScript - 12 septiembre
 * Context API  - 17 Octubre
 * Manejo de estado - zustand
 * Next.js - 31 Octubre
+
+Presentación proyectos
