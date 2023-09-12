@@ -46,7 +46,7 @@
 
 
 
-## Presentación proyectos - 1 Noviembre
+## Presentación proyectos - (Por definir)
 
 Slides - Presentación Demo
 
