@@ -10,7 +10,7 @@ Usaremos de manera online: **Stackblitz** y **Codepen**, te recomiendo registrar
 
 De manera local en nuestras máquinas usaremos [Visual Studio Code](https://code.visualstudio.com/), te recomiendo descargarlo e instalarlo en tu computadora de acuerdo a tu sistema operativo.
 
-Podemos seguir esta guia para aprender como usar stackblitz. [https://ngchallenges.gitbook.io/project/guias-utiles/stackblitz](https://ngchallenges.gitbook.io/project/guias-utiles/stackblitz)
+
 
 <figure><img src=".gitbook/assets/download.png" alt=""><figcaption></figcaption></figure>
 
