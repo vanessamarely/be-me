@@ -13,6 +13,10 @@
 * [📚 Temario](colaborar/temario/README.md)
   * [Agenda - Primera cohorte](colaborar/temario/agenda-primera-cohorte.md)
 
+***
+
+* [Herramientas](herramientas.md)
+
 ## Temario
 
 * [💾 Almacenamiento Web](temario/almacenamiento-web/README.md)
