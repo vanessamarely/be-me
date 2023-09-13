@@ -29,6 +29,7 @@
   * [Recursos](temario/modulos-js/recursos.md)
 * [⚛ React - Conceptos básicos](temario/react-conceptos-basicos/README.md)
   * [Ejercicio Practico](temario/react-conceptos-basicos/ejercicio-practico.md)
+  * [Proyecto - Team 5 -  (Conceptos básicos en React)](temario/react-conceptos-basicos/proyecto-team-5-conceptos-basicos-en-react.md)
 * [Estilos en React, aprendamos Tailwind](temario/estilos-en-react-aprendamos-tailwind/README.md)
   * [Ejercicio Practico](temario/estilos-en-react-aprendamos-tailwind/ejercicio-practico.md)
 * [React - Hooks](temario/react-hooks/README.md)
