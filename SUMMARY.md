@@ -15,7 +15,7 @@
 
 ***
 
-* [Recursos Generales](recursos-generales.md)
+* [🔖 Recursos Generales](recursos-generales.md)
 * [🧰 Herramientas](herramientas.md)
 
 ## Temario
