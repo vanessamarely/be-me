@@ -2,7 +2,7 @@
 
 React es una biblioteca de JavaScript utilizada para construir interfaces de usuario (UI) interactivas y reactivas en aplicaciones web.
 
-
+{% embed url="https://docs.google.com/presentation/d/1t66dTXXlolpHRRVK9cSXLUBNcQFxKiJby60wxu5_2DE/edit?usp=sharing" %}
 
 ### Conceptos Básicos
 
