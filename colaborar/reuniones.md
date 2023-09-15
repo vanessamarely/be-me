@@ -6,7 +6,7 @@ Los martes durante dos meses, nos reuniremos de manera presencial para ver algun
 
 ### 🌍 Remoto
 
-Los jueves será una sesión remota, donde se pondra en practica un ejercicio.
+Los miercoles/jueves será una sesión remota, donde se pondra en practica un ejercicio.
 
 ### 🤝 Asesorias adicionales
 
