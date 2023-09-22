@@ -1,3 +1,3 @@
 Brenda Bustamante
 Luisa Fernanda Ramirez Cardona
-Maria Victoria Higuita B
+Maria Victoria Higuita B.
