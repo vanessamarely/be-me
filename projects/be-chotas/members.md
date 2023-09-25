@@ -1,2 +1,3 @@
+Natalia Orozco
+Manuela Gomez
 Adriana Restrepo
-Manuela Gómez E.
