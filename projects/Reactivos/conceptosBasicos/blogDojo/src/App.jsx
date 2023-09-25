@@ -10,7 +10,6 @@ function App() {
       <Navbar/>
       <div className="content">
         <Home/>
-      <h1>App component</h1>
 
       </div>
       
