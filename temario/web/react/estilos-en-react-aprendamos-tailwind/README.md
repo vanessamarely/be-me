@@ -1,6 +1,6 @@
 # Estilos en React: Aprendamos Tailwind
 
- Uno de los enfoques más populares y eficientes para gestionar estilos en React es utilizando una biblioteca llamada Tailwind CSS. En este artículo, exploraremos cómo integrar y aprovechar Tailwind para darle estilo a tus aplicaciones React.
+Uno de los enfoques más populares y eficientes para gestionar estilos en React es utilizando una biblioteca llamada Tailwind CSS. En este artículo, exploraremos cómo integrar y aprovechar Tailwind para darle estilo a tus aplicaciones React.
 
 ## ¿Qué es Tailwind CSS?
 
@@ -13,14 +13,15 @@ Para comenzar a utilizar Tailwind en tu proyecto React, sigue estos pasos:
 1. **Crear un proyecto React:** Si aún no tienes un proyecto React en marcha, puedes usar Create React App o configurar uno manualmente.
 
 2. **Instalar Tailwind CSS:** Utiliza npm o yarn para instalar Tailwind CSS en tu proyecto.
-   
-   ``npm install -D tailwindcss autoprefixer postcss``
+
+   `npm install -D tailwindcss autoprefixer postcss`
 
    [Tailwindcss Get Started: Vite](https://tailwindcss.com/docs/guides/vite)
 
 3. **Configurar Tailwind:** Puedes generar un archivo de configuración inicial utilizando el comando `npx tailwindcss init -p`. Luego, personaliza la configuración según tus necesidades (agregando darkmode o plugins que quieras).
 
 tailwind.config.js
+
 ```
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -54,8 +55,8 @@ export default function App() {
   )
 }
 ```
-[Docs](https://tailwindcss.com/docs/)
 
+[Docs](https://tailwindcss.com/docs/)
 
 ##Ventajas de Tailwind CSS en React
 

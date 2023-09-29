@@ -26,8 +26,6 @@ Aríiculo que reemplaza el hack del json parse -&#x20;
 
 ### Ejercicios
 
-
-
 #### Localstorage
 
 {% embed url="https://codepen.io/vanessamarely/pen/ZEmRbaj" %}
@@ -47,8 +45,6 @@ Aríiculo que reemplaza el hack del json parse -&#x20;
 ### [ ](https://developer.mozilla.org/en-US/docs/Web/API/Storagehttps:/codepen.io/vanessamarely/pen/ZEmRbaj?editors=1010https://codepen.io/vanessamarely/pen/BaGVoMdhttps://storage-quota.glitch.me/https://www.freecodecamp.org/news/how-indexeddb-works-for-beginners/)[ ](https://developer.mozilla.org/en-US/docs/Web/API/Storagehttps:/codepen.io/vanessamarely/pen/ZEmRbaj?editors=1010https://codepen.io/vanessamarely/pen/BaGVoMdhttps://storage-quota.glitch.me/https://www.freecodecamp.org/news/how-indexeddb-works-for-beginners/)Contribuye en este repositorio:[ ](https://codepen.io/LOVEFORALL/details/ExRBrwrhttps:/github.com/firtman/coffeemasters-pwahttps://codepen.io/vanessamarely/pen/GRwGoXdhttps:/web.dev/indexeddb/https://web.dev/persistent-storage/https://web.dev/indexeddb-best-practices/https://dexie.org/docs/StorageManager)
 
 {% embed url="https://vanessamarely.github.io/recursos-frontend/" %}
-
-
 
 \
 \

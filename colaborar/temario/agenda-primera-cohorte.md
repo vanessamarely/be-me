@@ -2,53 +2,36 @@
 
 ### **Almacenamiento Web** - **Módulos JavaScript** - 7 septiembre
 
-
-
 ### **Conceptos básicos en React**- 12 septiembre&#x20;
 
-* Proyecto practico Conceptos básicos en React- 21 septiembre - **Team 5**
-
-
+- Proyecto practico Conceptos básicos en React- 21 septiembre - **Team 5**
 
 ### Estilos en React, aprendamos Tailwind - 19 septiembre
 
-* Proyecto practico - Estilos en React, aprendamos Tailwind -  27 septiembre - **Team 1**
-
-
+- Proyecto practico - Estilos en React, aprendamos Tailwind - 27 septiembre - **Team 1**
 
 ### Hooks - 26 Septiembre&#x20;
 
-* Proyecto practico Hooks - 4 octubre - **Team 3**
-
-
+- Proyecto practico Hooks - 4 octubre - **Team 3**
 
 ### Enrutamiento - 3 Octubre
 
-* Proyecto practico - Enrutamiento - 11 octubre - **Team 2**
+- Proyecto practico - Enrutamiento - 11 octubre - **Team 2**
 
+### Context API - 10 Octubre
 
+- Proyecto practico - Context API - 18 octubre - **Team 4**
 
-### Context API  - 10 Octubre
+### Manejo de estado - zustand - 17 octubre
 
-* Proyecto practico - Context API - 18 octubre - **Team 4**
-
-
-
-### Manejo de estado - zustand  - 17 octubre
-
-* Proyecto practico - Manejo de estado - zustand - 18 Octubre
-
-
+- Proyecto practico - Manejo de estado - zustand - 18 Octubre
 
 ### Next.js - 24 Octubre
 
-* Proyecto practico - Next.js - 25 Octubre
-
-
+- Proyecto practico - Next.js - 25 Octubre
 
 ## Presentación proyectos - (Por definir)
 
 Slides - Presentación Demo
 
 **Slides** - Explicar de que trata el proyecto - Desafios encontrados - Aprendizajes
-

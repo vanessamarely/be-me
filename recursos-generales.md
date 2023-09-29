@@ -2,8 +2,6 @@
 
 ## Links útiles
 
-
-
 {% embed url="https://www.frontendmentor.io/home" %}
 
 {% embed url="https://www.freecodecamp.org/news/javascript-projects-for-beginners/" %}
@@ -15,4 +13,3 @@
 {% embed url="https://www.interviewbit.com/blog/javascript-projects/" %}
 
 {% embed url="https://github.com/HalemoGPA/Learn-Js" %}
-

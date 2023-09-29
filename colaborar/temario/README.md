@@ -19,4 +19,3 @@ Estilos en **React**, aprendamos Tailwind
 **React -** Manejo de estado - zustand
 
 **React -** Next.js&#x20;
-

@@ -4,33 +4,33 @@
 https://tailwindcss.com/docs/installation
 https://tailwindcss.com/docs/guides/vite */
 
-import { useEffect } from "react";
-import { useState } from "react";
+import { useEffect } from 'react'
+import { useState } from 'react'
 
 function App() {
   const [theme, setTheme] = useState(() => {
-    if (localStorage.getItem("theme") === null) {
-      localStorage.setItem("theme", "light");
+    if (localStorage.getItem('theme') === null) {
+      localStorage.setItem('theme', 'light')
     }
     /* if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
       return "dark";
     }
     return "light"; */
-  });
+  })
 
   useEffect(() => {
-    if (theme === "dark") {
-      document.documentElement.classList.add("dark");
-      localStorage.setItem("theme", "dark");
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark')
+      localStorage.setItem('theme', 'dark')
     } else {
-      document.documentElement.classList.remove("dark");
-      localStorage.setItem("theme", "light");
+      document.documentElement.classList.remove('dark')
+      localStorage.setItem('theme', 'light')
     }
-  }, [theme]);
+  }, [theme])
 
   const handleChangeTheme = () => {
-    setTheme((theme) => (theme === "light" ? "dark" : "light"));
-  };
+    setTheme(theme => (theme === 'light' ? 'dark' : 'light'))
+  }
 
   return (
     <div
@@ -55,7 +55,7 @@ function App() {
         Change Theme
       </button>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

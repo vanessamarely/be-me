@@ -14,8 +14,8 @@ Al incluirse varios archivos con la etiqueta \<script>, propios o de terceros, n
 
 De la problemática surgieron librerías:
 
-* [Commonjs](https://wiki.commonjs.org/wiki/Modules/1.1): sistema de módulos adaptado
-* [AMD](https://es.wikipedia.org/wiki/Asynchronous\_module\_definition): sistema de módulos, como requirejs.
+- [Commonjs](https://wiki.commonjs.org/wiki/Modules/1.1): sistema de módulos adaptado
+- [AMD](https://es.wikipedia.org/wiki/Asynchronous_module_definition): sistema de módulos, como requirejs.
 
 También algunos sistemas de módulos que habilitan el sistema de módulos, como:
 
@@ -38,8 +38,8 @@ Eliminando la desventaja que había antes de la no flexibilidad de código.
 \
 Para trabajar con los módulos es necesario usar las siguientes palabras reservadas:
 
-* export: permite exportar diferentes elementos como por ejemplo variables, funciones,  a otros archivos.
-* import: permite importar elementos de otros archivos.
+- export: permite exportar diferentes elementos como por ejemplo variables, funciones, a otros archivos.
+- import: permite importar elementos de otros archivos.
 
 #### Export
 
@@ -47,18 +47,17 @@ La palabra reservada export, nos permite crear un módulo de exportación.
 
 Podemos exportar diferentes elementos de un archivo a otro.\
 
-
 ```javascript
-export const greeting = "Good morning!"
+export const greeting = 'Good morning!'
 ```
 
 Es una técnica usada para exportar código anonimamente (namelessly).
 
 ```javascript
-const example = "Your Code";
+const example = 'Your Code'
 
 // Export the example variable as a default export:
-export default example;
+export default example
 ```
 
 #### import
@@ -68,9 +67,9 @@ La palabra reservada import, nos permite importar el elemento del módulo que he
 Para usar ese elemento en nuestro archivo actual.
 
 ```javascript
-import { greeting } from "main.js"
+import { greeting } from 'main.js'
 
-console.log(greeting); //Good morning!
+console.log(greeting) //Good morning!
 ```
 
 #### import default export
@@ -78,14 +77,14 @@ console.log(greeting); //Good morning!
 Se puede usar el default as en la sintaxis
 
 ```javascript
-import { default as newName } from "main.js";
+import { default as newName } from 'main.js'
 //another example
 
-export default "Your Code";
+export default 'Your Code'
 
-import { default as favoriteCode} from "./module.js";
-const bestCode = favoriteCode + " " + "is my best!.";
-console.log(bestCode);
+import { default as favoriteCode } from './module.js'
+const bestCode = favoriteCode + ' ' + 'is my best!.'
+console.log(bestCode)
 ```
 
 #### Renombrar import y export
@@ -94,20 +93,16 @@ Para renombrarlos se puede usar el keyword as dentro de las llaves.
 
 ```javascript
 // dentro de module.js
-export {
-  function1 as newFunctionName,
-  function2 as anotherNewFunctionName
-};
+export { function1 as newFunctionName, function2 as anotherNewFunctionName }
 
 // dentro de main.js
-import {newFunctionName, anotherNewFunctionName} from './modules/module.js';
+import { newFunctionName, anotherNewFunctionName } from './modules/module.js'
 
 // dentro de module.js
-export {function1, function2};
+export { function1, function2 }
 
 // dentro de main.js
-import {function1 as newFunctionName,
-         function2 as anotherNewFunctionName } from './module.js';
+import { function1 as newFunctionName, function2 as anotherNewFunctionName } from './module.js'
 ```
 
 #### Import maps o mapas de importación
@@ -136,8 +131,7 @@ Debajo del importmap se incluye el módulo, y se pueden usar los keys creados en
 
 ```javascript
 <script type="module">
-  import { anyVariable } from "constants"
-  import { doSomething } from "functions"
+  import {anyVariable} from "constants" import {doSomething} from "functions"
 </script>
 ```
 
@@ -145,14 +139,10 @@ Sin usar el mapa de importación, la forma tradicional sería:
 
 ```javascript
 <script type="module">
-  import { anyVariable } from "./constants.js"
-  import { doSomething } from "./functions.js"
+  import {anyVariable} from "./constants.js" import {doSomething} from "./functions.js"
 </script>
 ```
 
 \
 
-
 \
-
-

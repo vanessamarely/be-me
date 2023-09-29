@@ -32,7 +32,7 @@ sessionStorage.key
 console.log(`Hola, mi nombre es ${sessionStorage.name}`)
 ```
 
-### Eliminar  datos del storage.
+### Eliminar datos del storage.
 
 \
 Para eliminar un dato del storage, se puede hacer de la siguiente manera:
@@ -49,8 +49,3 @@ Cuando deseemos que nuestro storage quede limpio:
 ```javascript
 sessionStorage.clear()
 ```
-
-
-
-
-

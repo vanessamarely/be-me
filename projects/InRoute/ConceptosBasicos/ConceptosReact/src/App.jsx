@@ -1,6 +1,6 @@
-import "./App.css";
-import Navbar from "./Navbar.jsx";
-import Home from "./Home.jsx";
+import './App.css'
+import Navbar from './Navbar.jsx'
+import Home from './Home.jsx'
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <h1>App Component</h1>
       </div>
     </>
-  );
+  )
 }
 
-export default App;
+export default App

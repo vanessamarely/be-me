@@ -6,21 +6,15 @@ React es una biblioteca de JavaScript utilizada para construir interfaces de usu
 
 ### Conceptos Básicos
 
-
-
 #### Componentes
 
 Un componente es una pieza aislada de la interfaz de usuario que puede contener código JavaScript, HTML y CSS. Los componentes pueden ser reutilizados en toda la aplicación.
-
-
 
 #### DOM (Modelo de objetos del Documento)
 
 El DOM es el árbol de objetos, de los elementos que se encuentran en el documento HTML.
 
 Tengo un articulo en [`medium`](https://vanessamarely.medium.com/crp-critical-render-path-o-ruta-de-acceso-de-representaci%C3%B3n-cr%C3%ADtica-1f2ca78d2645) o en [dev.to](https://dev.to/vanessamarely/crp-critical-render-path-o-ruta-de-acceso-de-representacion-critica-31eh), donde puedes ampliar la información sobre el critical render path y conocer un poco más sobre el DOM y como se renderiza en los navegadores.
-
-
 
 #### Virtual DOM
 
@@ -41,8 +35,6 @@ El estado es un objeto que contiene datos que pueden cambiar con el tiempo y afe
 #### Props
 
 Las props son datos que se pasan de un componente padre a un componente hijo. Las props son inmutables, lo que significa que no se pueden modificar desde el componente hijo.
-
-
 
 **Renderizado**
 
@@ -66,10 +58,10 @@ Manejar eventos es muy similar a como se realizaría en el DOM y en las etiqueta
 </code></pre>
 
 ```javascript
-const handleClick = () => console.log('click me');
+const handleClick = () => console.log('click me')
 ```
 
 #### Stateful & Stateless&#x20;
 
-* **Stateless**, es llamado sin estado, son componentes de presentación o componentes que solo van a mostrar información. Son llamados componentes tontos
-* **Stateful** son componentes con estado, en ellos va a ocurrir una mayor lógica, pueden ser componentes donde se van a hacer llamados al server o peticiones. Estos componentes llaman a los componentes Stateless. Son llamados también componentes smart.
+- **Stateless**, es llamado sin estado, son componentes de presentación o componentes que solo van a mostrar información. Son llamados componentes tontos
+- **Stateful** son componentes con estado, en ellos va a ocurrir una mayor lógica, pueden ser componentes donde se van a hacer llamados al server o peticiones. Estos componentes llaman a los componentes Stateless. Son llamados también componentes smart.

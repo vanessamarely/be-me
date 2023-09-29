@@ -4,7 +4,8 @@
   "description": "{% hint style=\"info\" %} **Mentorías:**  según Wikipedia, la mentoría (también llamada mentoring) es una relación de desarrollo personal en la cual una persona más experimentada o con mayor conocimiento ayuda a otra menos experimentada o con menor conocimiento.\\ **Mentee**: según Wikipedia, Mentee que es un termino en inglés, se refiere a la persona que va a recibir la mentoría {% endhint %}",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,13 @@
     "url": "https://github.com/vanessamarely/be-me/issues"
   },
   "homepage": "https://github.com/vanessamarely/be-me#readme",
-  "packageManager": "npm@7.0.0"
+  "packageManager": "npm@8.1.0",
+  "workspaces": [
+    "projects/*/*",
+    "projects/*/*/*"
+  ],
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "turbo": "^1.0.0"
+  }
 }

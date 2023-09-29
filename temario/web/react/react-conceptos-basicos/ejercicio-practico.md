@@ -29,12 +29,13 @@ En la estructura de carpetas podrás apreciar en los Files, que se ha creado una
 Toda aplicación parte de un documento HTML. En la carpeta public al seleccionar el `index.html`, se puede encontrar el contenedor de nuestra aplicación.
 
 {% code lineNumbers="true" %}
+
 ```html
 // Contenedor de la App
 
 <div id="root"></div>
-
 ```
+
 {% endcode %}
 
 <figure><img src="../../../.gitbook/assets/Screenshot%202023-03-08%20at%204.38.17%20PM.png" alt=""><figcaption><p>index.html</p></figcaption></figure>

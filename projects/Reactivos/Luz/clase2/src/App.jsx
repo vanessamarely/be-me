@@ -1,10 +1,10 @@
 import './App.css'
 
 function App() {
-
   return (
     <>
-    <div className='
+      <div
+        className="
       flex
       justify-center
       rounded-md
@@ -18,13 +18,17 @@ function App() {
       items-center
       md:p-40
       md:bg-blue-50
-      '>
-      <h1 className='
+      "
+      >
+        <h1
+          className="
       text-red-200
-      md:text-blue-200'
-      >Hola Mundo</h1>
-    </div>
-    <div className='portrait:hidden'></div>
+      md:text-blue-200"
+        >
+          Hola Mundo
+        </h1>
+      </div>
+      <div className="portrait:hidden"></div>
     </>
   )
 }

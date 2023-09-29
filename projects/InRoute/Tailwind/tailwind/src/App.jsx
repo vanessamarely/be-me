@@ -1,4 +1,4 @@
-import "./App.css";
+import './App.css'
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
       </div>
       <div className="portrait:hidden">me veo en portraid</div>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
