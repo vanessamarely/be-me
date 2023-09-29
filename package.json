@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/vanessamarely/be-me/issues"
   },
-  "homepage": "https://github.com/vanessamarely/be-me#readme"
+  "homepage": "https://github.com/vanessamarely/be-me#readme",
+  "packageManager": "npm@7.0.0"
 }
