@@ -1,8 +1,5 @@
 # Ejercicio Practico
 
-\
-
-
 Para crear routing con React y Vite, sigue estos pasos:
 
 1. Crea un nuevo proyecto de React con Vite:
