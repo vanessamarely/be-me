@@ -31,7 +31,6 @@
   * [React](temario/web/react/README.md)
     * [⚛ React - Conceptos básicos](temario/web/react/react-conceptos-basicos/README.md)
       * [Ejercicio Practico](temario/web/react/react-conceptos-basicos/ejercicio-practico.md)
-      * [Proyecto - Team 5 - (Conceptos básicos en React)](temario/web/react/react-conceptos-basicos/proyecto-team-5-conceptos-basicos-en-react.md)
     * [Estilos en React, aprendamos Tailwind](temario/web/react/estilos-en-react-aprendamos-tailwind/README.md)
       * [Ejercicio Practico](temario/web/react/estilos-en-react-aprendamos-tailwind/ejercicio-practico.md)
     * [React - Hooks](temario/web/react/react-hooks/README.md)
@@ -44,3 +43,7 @@
       * [Ejercicio Practico](temario/web/react/react-manejo-de-estado-zustand/ejercicio-practico.md)
   * [Next.js](temario/web/next.js/README.md)
     * [Ejercicio Practico](temario/web/next.js/ejercicio-practico.md)
+
+***
+
+* [Proyectos](proyectos.md)
