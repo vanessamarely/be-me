@@ -35,7 +35,7 @@ Envuelve a la aplicación, para lograr una sincronización de la URL.
 </BrowserRouter>
 ```
 
-### Switch
+### Switch o Routes en la última versión
 
 Se encarga de renderizar solo al primer hijo Route o Redirect, ruta que coincide, en lugar de todas las rutas coincidentes.\
 
