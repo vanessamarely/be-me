@@ -1,5 +1,9 @@
 # 📍 Enrutamiento React
 
+{% embed url="https://docs.google.com/presentation/d/1WT1HWWZgLnROZ98rc1jgFQmTCoM5wHfaUoaIF0YJTVo/edit?usp=sharing" %}
+
+
+
 ## SPA - Single Page Application
 
 Una SPA (Single Page Application), tiene la característica de permitirnos crear una aplicación dinámica que no necesite recargarse para permitirnos navegar por los diferentes elementos de nuestra aplicación.
