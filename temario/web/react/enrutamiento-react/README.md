@@ -38,6 +38,18 @@ Se encarga de renderizar solo al primer hijo Route o Redirect, ruta que coincide
 
 ```jsx
 <Switch>
+    ...
+</Switch>
+```
+
+En la ultima versión es:
+
+
+
+```jsx
+<Routes>
+    ...
+</Routes>
 ```
 
 ### Route
