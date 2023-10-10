@@ -11,7 +11,3 @@ function Circle({ number }) {
 }
 
 export default Circle
-
-/* Base:
-  <button></button>
-*/

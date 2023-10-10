@@ -14,15 +14,3 @@ function App() {
 
 export default App
 
-/* Base
-  <main>
-    <Window />
-  </main>
-*/
-
-
-// 1. Buscar cómo cambiar el color cuando se haga click -> Adri
-// 2. Hacerlo responsive -> Nati
-// 3. Número en cada círculo -> Adri
-// 4. Animar el hover de los circulos -> Adri
-// 5. Plugin ->Gomz

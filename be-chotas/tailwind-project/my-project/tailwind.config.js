@@ -7,29 +7,13 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}", 
   ], 
   theme: {
-    extend: {
-      boxShadow:{
-        neon: "0 0 5px theme('colors.amber.200'), 0 0 20px theme('colors.amber.700')"
-      }
-    },
-    fontFamily:{
-      'new':["Mochiy Pop One","sans-serif"], 
-      'letter':['Hachi Maru Pop', 'cursive'] 
-    }
-  },
-  plugins:[]
-}
-  // Add any additional configuration here
-/* On theme:
-  extend: {
-      boxShadow:{
-        neon: "0 0 5px theme('colors.amber.200'), 0 0 20px theme('colors.amber.700')"
-    }
-  }
-*/
+    fontFamily: {
+      'miFuente': ['Roboto', 'sans-serif'],
+      'videojuego':['Pixelify Sans', 'cursive']
 
-/*
-plugins: [
+    },
+  },
+  plugins: [
     plugin(({theme,addUtilities})=>{
       const neonUtilities = {};
       const colors = theme("colors");
@@ -45,4 +29,4 @@ plugins: [
       addUtilities(neonUtilities)
     })
   ]
-*/
+}

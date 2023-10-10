@@ -6,8 +6,8 @@ function Window() {
   return (
     <>
       <div className="group/name grid bg-slate-800 w-80 h-80 rounded-xl p-7 hover:neon-amber">
-        <h1 className='text-white font-bold text-2xl group-hover/name:text-amber-500'>How did we do?</h1>
-        <p className='text-white'>Please let us know how did we did on your support request. All feedback is appreciated to hel up improve our offering!</p>
+        <h1 className='text-white font-bold text-2xl group-hover/name:text-amber-500 font-videojuego'>HOW DID WE DO?</h1>
+        <p className='text-white font-miFuente'>Please let us know how did we did on your support request. All feedback is appreciated to help up improve our offering!</p>
         <div className="flex justify-around place-items-center font-letter ">
             <Circle number={1} />
             <Circle number={2} />
@@ -23,17 +23,3 @@ function Window() {
 
 export default Window
 
-/* 
-Base:
-<div>
-    <h1>How did we do?</h1>
-    <p>Please let us know how did we did on your support request. All feedback is appreciated to hel up improve our offering!</p>
-    <div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-</div>
-    */
