@@ -1,3 +1,0 @@
-# Modulos JS
-
-En construcción ...

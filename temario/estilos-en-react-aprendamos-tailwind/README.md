@@ -1,3 +1,0 @@
-# Estilos en React, aprendamos Tailwind
-
-En construcción ...

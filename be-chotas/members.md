@@ -1,1 +1,0 @@
-Manuela Gómez E.

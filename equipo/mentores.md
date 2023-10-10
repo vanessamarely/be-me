@@ -12,9 +12,7 @@ coverY: 0
 
 ## Miguel Sierra
 
-👋 Senior Frontend Engineer — 💌  — 🇨🇴 Colombia (GMT-5)
-
-
+👋 Senior Frontend Engineer — 💌 — 🇨🇴 Colombia (GMT-5)
 
 <figure><img src="../.gitbook/assets/T06M9E5E3-U036R1BF3T8-e8a8bf36a27f-512.jpeg" alt=""><figcaption></figcaption></figure>
 
