@@ -20,8 +20,8 @@
   "homepage": "https://github.com/vanessamarely/be-me#readme",
   "packageManager": "npm@8.1.0",
   "workspaces": [
-    "projects/*/*",
-    "projects/*/*/*"
+    "/*/*",
+    "/*/*/*"
   ],
   "devDependencies": {
     "prettier": "^3.0.3",
