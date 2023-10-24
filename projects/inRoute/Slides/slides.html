@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enrutamiento</title>
+    <link rel="stylesheet" href="./slides.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title-hero-image">INROUTE</div>
+      <div class="hero-image">
+        <img src="./assets/femalecodertocat.png" alt="gata2" />
+        <img src="./assets/Octogata2.png" alt="gata1" />
+        <img src="./assets/isaba.png" alt="gata3" />
+      </div>
+      <img class="be-me" src="./assets/be-me.png" alt="">
+    </div>
+
+    <header class="header sticky-top">
+      <div class="header-title">REACT ROUTER DOM V6</div>
+    </header>
+    <section class="slides">
+      <article class="slide">
+        <h3 class="slide-title">Estructura básica en React Router 6</h3>
+        <div class="slide-content p-img-code">
+          <p class="p-code">
+            
+            <dl>
+              <dt>Instalamos en la terminal:</dt>
+              <dd><code><b>npm install react-router-dom</b></code></dd>
+              <dt><b>Browser Router</b></dt>
+              <dd>Proveedor de toda la librería</dd>
+              <dt><b>Routes</b></dt>
+              <dd>Contiene las rutas</dd>
+              <dt><b>Route</b></dt>
+              <dd>Es la ruta específica. Tiene dos atributos: path y element</dd>
+            </dl>
+          </p>
+          <p>
+            <img
+              src="./assets/estructuraBasica.png"
+              alt="Estructura-react"
+            />
+          </p>
+        </div>
+      </article>
+      <article class="slide">
+        <h3 class="slide-title">Componente Link</h3>
+        <div class="slide-content p-img-code">
+          <p>
+            La etiqueta <code>Link</code> es la que nos permite navegar entre
+            las diferentes rutas de nuestra aplicación. Es importante destacar
+            que esta etiqueta debe ser importada desde react-router-dom.
+          </p>
+          <img style="padding-top: 6rem;" src="./assets/link.png" alt="etiqueta-link">
+        </div>
+      </article>
+      <article class="slide">
+        <h3 class="slide-title">Componente NavLink</h3>
+        <div class="slide-content p-img-code">
+          <p>
+            La etiqueta <code>NavLink</code> es muy similar a la etiqueta
+            <code>Link</code>, pero con la diferencia de que nos permite
+            agregarle una clase CSS cuando la ruta que estamos visitando
+            coincide con la ruta que le pasamos como parámetro.
+          </p>
+          <img style="padding-top: 6rem;" src="./assets/navlink.png" alt="navLink">
+        </div>
+      </article>
+      <article class="slide">
+        <h3 class="slide-title">Rutas Inexistentes</h3>
+        <div class="slide-content p-img-code">
+          <p>
+            En caso de que el usuario ingrese una ruta que no existe en nuestra
+            aplicación, podemos mostrarle una página de error. Para ello,
+            debemos crear una ruta que en el path tenga como valor "*" y que se
+            encuentre al final de todas las rutas.
+          </p>
+          <img style="padding-top: 6rem;" src="./assets/rutaInexistente.png" alt="Ruta Inexistente">
+        </div>
+      </article>
+      <article class="slide">
+        <h3 class="slide-title">Redirecciones</h3>
+        <div class="slide-content p-img-code">
+          <p>
+            Cuando una ruta cambia de dirección, podemos redireccionar
+            al usuario a la nueva ruta. Para ello, debemos importar el componente
+            <code>Navigate</code> desde react-router-dom y crear una ruta con
+            el atributo <code>to</code> que apunte a la ruta a la que
+            queremos redireccionar.
+          </p>
+          <img style="padding-top: 6rem;" src="./assets/redirecciones.png" alt="Redirecciones">
+        </div>
+      </article>
+      <article class="slide">
+        <h3 class="slide-title">useParams</h3>
+        <div class="slide-content p-img-code">
+          <p>
+            El enrutamiento con parámetros en React es una técnica que 
+            te permite crear rutas dinámicas en tu aplicación web para 
+            que puedas mostrar contenido personalizado según los valores
+            pasados como parámetros en la URL. Esto es útil cuando tienes
+            páginas o componentes que deben mostrar información específica
+            según una variable, como un identificador único, un nombre o 
+            cualquier otro valor que pueda cambiar. 
+            Para implementar el enrutamiento con parámetros en React, 
+            generalmente se utiliza una biblioteca de enrutamiento como React Router. 
+          </p>
+          
+          <img style="padding-top: 6rem;" src="./assets/Structure.png" alt="useParams">          
+        </div>
+      </article>
+      <article class="slide">
+        <h3 class="slide-title">Rutas Anidadas</h3>
+        <div class="slide-content p-img-code">
+          <p>
+            Anidar rutas consiste en agrupar una serie de rutas react que empiezan con la misma URL
+            para simplificar nuestro código y permiti un flujo de navegación más efectivo y centralizado.
+          </p>
+          <img style="padding-top: 6rem;" src="./assets/RutaAnidada-Ejemplo.png" alt="Ejemplo">
+        </div>
+      </article>
+      <article class="slide">
+        <h3 class="slide-title">El componente Outlet </h3>
+        <div class="slide-content p-img-code">
+          <p>
+            Outlet nos permite establecer un espacio vacío dentro de un componente, donde podemos 
+            renderizar el resultado de una ruta. Este espacio permitirá entonces mostrar la agrupación 
+            de una serie de rutas react que empiezan con la misma URL. Aquí es donde comienza el 
+            manejo de termino de Rutas Padres y Rutas Hijas. En definitiva podemos realizar secciones
+            dinámicas según el cambio de URL hija(Segmento de URL).
+          </p>
+          <img style="padding-top: 6rem;" src="./assets/RutaAnidada-2.png" alt="Componente Outlet">
+        </div>
+      </article>
+      <article class="slide">
+        <h3 class="slide-title">Ruta index</h3>
+        <div class="slide-content p-img-code">
+          <p>
+            Mientras permanecemos en la ruta raíz “/”, de nuestro grupo de Rutas Anidadas Outlet no 
+            renderiza nada. Pero podemos agregar una ruta hija que se renderice por defecto utilizando el 
+            atributo Index de la siguiente manera.
+          </p>
+          <img style="padding-top: 6rem;" src="./assets/RutaAnidada-3.png" alt="Index">
+        </div>
+      </article>
+    </section>
+    <div class="container">
+      <div style="padding-top: 3rem;"class="hero-image">
+        <img src="./assets/wecan.png" alt="gataFinal" />
+      </div>
+      <img style="border-style: none; border-radius:0; padding-bottom: 1.5rem;"class="be-me" src="./assets/be-me.png" alt="">
+    </div>
+  </body>
+</html>
