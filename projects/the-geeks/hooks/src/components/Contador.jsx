@@ -1,13 +1,15 @@
 import React, { useState, useEffect, useRef } from "react";
 import ImgPoke from "./ImgPoke";
+import Mensaje from "./Mensaje";
 
 function Contador() {
   const [contador, setContador] = useState(1);
   const buttonRef = useRef(null);
+  const [mostrarMensaje, setMostrarMensaje] = useState(false);
 
   useEffect(() => {
     if (contador === 16) {
-      alert("¡El Pokémon está evolucionando!");
+      setMostrarMensaje(true);
       if (buttonRef.current) {
         buttonRef.current.disabled = true;
       }
@@ -18,8 +20,8 @@ function Contador() {
     setContador(contador + 1);
   };
 
-  return (
-    <div className="bg-blue-200 rounded-lg shadow-lg p-4 mb-4">
+ return (
+    <div className="bg-blue-200 rounded-lg shadow-lg p-4 mb-4 relative">
       <div className="mb-4">
         <h1 className="text-2xl font-semibold text-blue-800 mb-2">Contador</h1>
         <p className="text-gray-700">Nivel del Pokémon: {contador}</p>
@@ -33,7 +35,8 @@ function Contador() {
           Subir de Nivel
         </button>
       </div>
-      <div>
+      <div className="relative">
+        {mostrarMensaje && <Mensaje />}
         <ImgPoke contador={contador} />
       </div>
     </div>
