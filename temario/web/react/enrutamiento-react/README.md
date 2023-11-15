@@ -2,7 +2,7 @@
 
 {% embed url="https://docs.google.com/presentation/d/1WT1HWWZgLnROZ98rc1jgFQmTCoM5wHfaUoaIF0YJTVo/edit?usp=sharing" %}
 
-
+{% embed url="https://www.youtube.com/live/kmBoosnwGwQ?si=M_2GddZS_UT6VB3u" %}
 
 ## SPA - Single Page Application
 
